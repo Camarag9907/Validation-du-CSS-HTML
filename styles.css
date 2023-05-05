@@ -145,6 +145,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 
 .contenu_1 {
@@ -245,6 +246,7 @@ span {
     margin-bottom: 35px;
     justify-content: center;
     gap: 2rem;
+    margin-bottom: 50px;
 }
 
 .about_service_2 {
@@ -301,4 +303,95 @@ span {
 
 .about_servive i:hover {
     color: yellowgreen;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.skill_1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+.skill_1 h1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-bottom: 25px;
+}
+
+.skill_1 h3 {
+    font-size: 1.8rem;
+}
+
+.skill_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.skill_2_1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+     justify-content: center;
+    align-items: center;
+  margin-left: 30px;
+    margin-right: 30px;
+}
+
+.skill_2_2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+     justify-content: center;
+    align-items: center;
+  margin-left: 30px;
+    margin-right: 30px;
+}
+
+.skill_2_3 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+     justify-content: center;
+    align-items: center;
+  margin-left: 30px;
+    margin-right: 30px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.album_1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+.album_1 h1 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-bottom: 25px;
+}
+
+.album_1 h3 {
+    font-size: 1.8rem;
 }
