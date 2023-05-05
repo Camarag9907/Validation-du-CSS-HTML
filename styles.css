@@ -21,7 +21,7 @@
 html {
      font-size: 62.5%;
     /* overflow: hidden; */
-    color: var(--bg-color);
+    color: var(--main-color);
     background-color: var(--bg-color);
 }
 
@@ -136,3 +136,82 @@ span {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenu_1 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.contenu_1 h1 {
+    align-items: center;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    margin-left: 350px;
+}
+
+.contenu_1 h3 {
+    font-size: 1.6rem;
+    margin-bottom: 45px;
+}
+
+.contenu_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenu_2_1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contenu_2_2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contenu_resume {
+    display: inline-block;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    opacity: ;
+}
+
+.contenu_resume h1 {
+    font-size: 2.6rem;
+    color: fuchsia;
+    margin-bottom: 10px;
+}
+
+.contenu_resume h2 {
+    font-size: 2rem;
+}
+
+.contenu_resume h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.resume a {
+    margin-bottom: 25px;
+}
+
